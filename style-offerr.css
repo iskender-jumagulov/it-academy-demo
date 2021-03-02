@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #22679f;
+    font-family: 'Rodoto', sans-serif;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    width: 100%;
+    min-height: 40%;
+}
+
+.icons img {
+    width: 100px;
+}
+
+.icons p {
+    width: 300px;
+    font-size: 14px;
+}
+
+.icons {
+    color: #fff;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.icons h3 {
+    color: #fff;
+}
+
+.header {
+    position: static;
+    width: 100%;
+    min-height: 100px;
+}
+
+.section-offer {
+    background-image: url(images/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.offer-icons {
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.offer-btn {
+    position: relative;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.offer-btn a {
+    display: block;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.offer-btn:hover {
+    background: #fff;
+    color: #030303;
+}
+
+.offer-btn:hover>a {
+    color: #030303;
+}
+
+.advantages-icon p {
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+}
+
+.advantages-icon {
+    text-align: center;
+    width: 20%;
+}
+
+.advantages {
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    width: 60%;
+    color: #999999;
+}
+
+.advantages-laptop {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.advantages-laptop img {
+    margin: 0;
+    padding: 0;
+}
+
+.section h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* Стили для новостной ленты */
+
+.section-news {
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    background: #f4f4f4;
+}
+
+.news {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.news-info {
+    width: 30%;
+    margin: 15px;
+    margin: auto;
+}
+
+.news-img {
+    width: 30%;
+}
+
+.news-img img {
+    width: 100%;
+}
+
+.news-frame {
+    width: 30%;
+    margin: 15px;
+}
+
+.news-frame p,
+h4 {
+    width: 450px;
+}
+
+.news-btn {
+    position: relative;
+    background: #22679f;
+    border: 1px solid #22679f;
+}
+
+.news-btn a {
+    display: block;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* css for frame  */
+
+iframe {
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+}
+
+
+/* стили для ТОП СТУДЕНТОВ */
+
+.top-students {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.students,
+.students h4 {
+    width: 300px;
+    text-align: center;
+    color: black;
+}
+
+.students {
+    margin: auto;
+}
+
+.students img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/* Стили для футера */
+
+.social-netwoks {
+    width: 30%;
+}
+
+.social-networks img {
+    width: 50px;
+    margin-top: 100px;
+}
+
+.map {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+}
+
+.section-students {
+    padding: 15px;
+}
+
+.top-students {
+    padding: 50px;
+}
+
+.web-map {
+    width: 200px;
+}
+
+
+/* Стили для страницы направления */
+
+.directions-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.directions-wrapper section {
+    padding-top: 15px;
+}
+
+.directions {
+    margin-left: 71px;
+    text-align: left;
+}
+
+.directions h2 {
+    text-align: left;
+    padding-top: 120px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-directions-offer {
+    width: 100%;
+    background-image: url(images/directions-bg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.directions-content {
+    display: flex;
+    margin: 80px;
+    background: #F1F1F1;
+    width: 80%;
+    margin: auto;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.directions-text {
+    padding: 20px;
+    padding-top: 70px;
+    text-align: left;
+}
+
+.directions-text h2 {
+    text-align: left;
+}
+
+.directions-text hr {
+    width: 300px;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.directions-img img {
+    width: 500px;
+    padding: 20px;
+}
+
+.directions-content-2 {
+    display: flex;
+    background-image: url(images/Rectangle.jpg);
+    width: 100%;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.directions-text-2 {
+    padding: 20px;
+    padding-top: 70px;
+    text-align: left;
+}
+
+.directions-text-2 h2 {
+    text-align: left;
+}
+
+.directions-text-2 hr {
+    width: 300px;
+    color: gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.directions-content-2 h2 {
+    color: #fff;
+}
+
+.directions-img-2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.directions-img img {
+    height: 500px;
+}
+
+.name-teach {
+    text-align: center;
+    margin: auto;
+}
